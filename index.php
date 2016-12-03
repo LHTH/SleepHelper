@@ -58,21 +58,43 @@ Options:
     <option value="irregular">I have an irregular sleep schedule</option>
     <option value="mind">I have something on my mind</option>
     <option value="insomnia">I have insomnia</option>
-    <option value="justCant">I just can't fall asleep</option>
+    <option value="justCant">I just can't fall asleep (General Tips)</option>
   </select>
 </form>
 
 
 <div class="solution" id="consume">
-<h2>I consumed something</h2>
+  <h2>I consumed something</h2>
+  <button id = "tea" onclick = "tea()">Tea</button>
+  <button id = "coffee" onclick= "coffee()">Coffee</button>
+  <button id = "energy" onclick= "energy()">Energy Drink</button>
+  <button id = "chocolate" onclick= "chocolate()">Chocolate</button>
+  <p id = "drink"></p>
+
 </div>
 
 <div class="solution" id="sleptTooMuch">
 <h2>I slept too much</h2>
+<p>Based on someone's age:
+- Children should get at least 10 hours of sleep
+- Teenagers should get 9-10 hours of sleep
+- Adults should get 7-9 hours of sleep
+
+Exceeding this amount can lead to fatigue and grogginess. 
+
+If you've slept too much, it simply means your day has been pushed back. You'll sleep later than you usually do. 
+Make sure not to sleep too much too often, this can lead to a significant change in your sleep schedule.
+</p>
 </div>
 
 <div class="solution" id="irregular">
 <h2>Irregular sleep schedule</h2>
+<p>If you have an irregular sleep schedule, it will be very difficult for you to fall asleep at regular times.
+Following our general tips may help, but fixing your sleep schedule should be a priority.
+To fix your sleep schedule:
+- Go to bed at the same time every night
+- Force yourself to stay up and sleep at desired regular time
+- If all else fails, seek help from a professional</p>
 </div>
 
 <div class="solution" id="mind">
