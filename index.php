@@ -25,6 +25,7 @@
 
 <div id="description">
 <p>We've all experienced insomnia; you're rolling around in bed, worried, and frustrated. We've designed this to be used when you're fiddling around on your mobile device trying to sleep.</p>
+<br>
 <div class="text-center">
 	<p><i>So what's the cause of your insomnia?</i></p>
 </div>
