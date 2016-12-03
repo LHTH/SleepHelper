@@ -10,22 +10,22 @@ function hideAll(){
 function showSolution(selection){
 	switch(selection){
     	case "consume":
-    		$("#consume").css("display", "inline");
+            $("#consume").fadeIn(1000);
     		break;
     	case "sleptTooMuch":
-    		$("#sleptTooMuch").css("display", "inline");
+    		$("#sleptTooMuch").fadeIn(1000);
     		break;
     	case "irregular":
-    		$("#irregular").css("display", "inline");
+    		$("#irregular").fadeIn(1000);
     		break;
    		case "mind":
-    		$("#mind").css("display", "inline");
+    		$("#mind").fadeIn(1000);
     		break;
     	case "insomnia":
-    		$("#insomnia").css("display", "inline");
+    		$("#insomnia").fadeIn(1000);
     		break;
     	case "justCant":
-    		$("#justCant").css("display", "inline");
+    		$("#justCant").fadeIn(1000);
     		break;
 	}
 }
