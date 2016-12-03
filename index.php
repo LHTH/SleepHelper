@@ -64,27 +64,31 @@ Options:
 
 
 <div class="solution" id="consume">
-I consumed something
+<h2>I consumed something</h2>
 </div>
 
 <div class="solution" id="sleptTooMuch">
-I slept too much
+<h2>I slept too much</h2>
 </div>
 
 <div class="solution" id="irregular">
-Irregular sleep schedule
+<h2>Irregular sleep schedule</h2>
 </div>
 
 <div class="solution" id="mind">
-Something on my mind
+<h2>Something on my mind</h2>
+<p>If you have a lot in your mind, try writing it out your thoughts on a piece of paper instead of using an electronic device as it can make you more awake. When writing down things, it can get it off your mind as it can remind you in the morning or it is used to empty your mind.</p>
 </div>
 
 <div class="solution" id="insomnia">
-Insomnia
+<h2>Insomnia</h2>
+<p>Drink warm milk before sleeping or foods with tryptophan such as turkey or tuna fish. Tryptophan is an amino acid which helps induce sleep.
+  To reduce insomnia in the future, try to avoid consuming caffeine after 2pm, have a sleep and wake up routine to get used to waking up and sleeping at the same time everyday, do stretches or yoga 2 hours before sleeping.</p>
 </div>
 
 <div class="solution" id="justCant">
-JustCant
+<h2>JustCant</h2>
+<p>Try using blackout curtains to reduce light entering the room. Turn off all lights in the room to make it as dark as possible. Keep electronics away from you to prevent the need to go on it as it can make you less sleepy. Avoid the colour blue when trying to sleep. Sleeping in a dark room helps release melatonin into your system to make you fall asleep. Some foods that boost melatonin is pineapple, oranges, and sweet corn.</p>
 </div>
 
 </body>
