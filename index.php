@@ -20,7 +20,7 @@
 <div class="wrapper">
 
 <div id="title">
-<h1>Why can't I sleep?</h1>
+<h1>Why Can't I Sleep?</h1>
 </div>
 
 <div id="description">
