@@ -1,2 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+option:nth-child(7) {
+    font-weight:bold;
+}
