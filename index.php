@@ -24,25 +24,73 @@ Options:
 	3. Energy drink
 	4. Chocolate
 
-- I'm worried about something
-
-- Insomnia/mental illnesses
-
 - I slept too much last night
 	When did you last sleep? (Calculates when a suitable time to try to fall asleep is)
 
 - I have an irregular sleep schedule
 
+- Worried 
+
+- Insomnia 
+
 - I just can't fall asleep.
 
 -->
-      
+<h1>Sleep Helper</h1>
+
+<p>Description</p>
+<!--
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation" id="1"><a role="menuitem" tabindex="-1">I consumed something</a></li>
+      <li role="presentation" id="2"><a role="menuitem" tabindex="-1">I slept too much</a></li>
+      <li role="presentation" id="3"><a role="menuitem" tabindex="-1">I have an irregular sleep schedule</a></li>   
+    </ul>
+  </div>
+-->
+<form>
+<select id="options">
+	<option value="default" selected>Choose an option</option>
+    <option value="consume">I consumed something</option>
+    <option value="sleptTooMuch">I slept too much</option>
+    <option value="irregular">I have an irregular sleep schedule</option>
+    <option value="mind">I have something on my mind</option>
+    <option value="insomnia">I have insomnia</option>
+    <option value="justCant">I just can't fall asleep</option>
+  </select>
+</form>
+
+
+<div class="solution" id="consume">
+I consumed something
+</div>
+
+<div class="solution" id="sleptTooMuch">
+I slept too much
+</div>
+
+<div class="solution" id="irregular">
+Irregular sleep schedule
+</div>
+
+<div class="solution" id="mind">
+Something on my mind
+</div>
+
+<div class="solution" id="insomnia">
+Insomnia
+</div>
+
+<div class="solution" id="justCant">
+JustCant
+</div>
 
 </body>
 
-<script src="sleep.js"></script>
-
 <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+<script src="sleep.js"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
