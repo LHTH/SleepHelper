@@ -91,17 +91,29 @@ span{
 	color:white;
 }
 
-#options { border:0; color:white; background:#284184;
-font-size:16px; font-weight:bold; font-family: 'Droid Serif', serif; padding:8px 15px; width:320px;
-*width:350px; *background:#284184;}
+#options {
+	-webkit-background:#284184 !important; 
+	background:#284184 !important;
+	-webkit-width:320px;
+	width:320px;
+}
 
-#age, #hours, #minutes, #daytime{
+#options, #age, #hours, #minutes, #daytime{
+	-webkit-background:#6495ED;
 	background:#6495ED;
+	-webkit-font-family: 'Droid Serif', serif;
 	font-family: 'Droid Serif', serif;
+	-webkit-color:white;
+	color:white;
+	-webkit-font-size:16px;
 	font-size:16px;
+	-webkit-border:0;
 	border:0;
+	-webkit-padding:8px 15px;
 	padding:8px 15px;
+	-webkit-margin-top:10px;
 	margin-top:10px;
+	-webkit-margin-bottom:10px;
 	margin-bottom:10px;
 }
 
