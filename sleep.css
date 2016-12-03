@@ -19,7 +19,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 
 body{
 	background-color:#020438;
-	animation: body 40s linear infinite;
+	animation: body 60s linear infinite;
 }
 
 @-webkit-keyframes body{
