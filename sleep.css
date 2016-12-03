@@ -24,6 +24,7 @@ h1{
 	color:white;
 	font-family: 'Raleway', sans-serif;
 	text-align:center;
+	font-size:50px;
 }
 
 h2{
@@ -33,7 +34,7 @@ h2{
 
 form{
 	text-align:center;
-	margin-bottom:40px;
+	margin-bottom:20px;
 }
 
 .outerwrapper{
@@ -44,33 +45,70 @@ form{
 	margin: 0 auto;
 	min-width:50%;
 	max-width:100%;
-	width:500px;
+	width:650px;
 	padding-left:20px;
 	padding-right:20px;
+}
+
+#title{
+	margin-top:50px;
 }
 
 .solution{
 	color:white;
 	font-family: 'Droid Serif', serif;
-	font-size:18px;
+	font-size:16px;
+	text-align:justify;
 }
 
 #description{
 	color:white;
-	font-family: 'Droid Serif', serif;\
-	font-size:18px;
+	font-family: 'Droid Serif', serif;
+	font-size:16px;
 	padding-top:20px;
 	padding-bottom:20px;
 }
 
+#buttonrow{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+button{
+	background-color:#284184;
+	color:white;
+	border:none;
+	width:150px;
+	padding:10px 15px;
+	margin-bottom:5px;
+}
+
 ul li{
-	color:#284184;
+	color:#6495ED;
 }
 
 span{
 	color:white;
 }
 
-select { border:0; color:white; background:#284184;
+#options { border:0; color:white; background:#284184;
 font-size:16px; font-weight:bold; font-family: 'Droid Serif', serif; padding:8px 15px; width:320px;
 *width:350px; *background:#284184;}
+
+#age, #hours, #minutes, #daytime{
+	background:#6495ED;
+	font-family: 'Droid Serif', serif;
+	font-size:16px;
+	border:0;
+	padding:8px 15px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#time{
+	text-align:center;
+}
+
+#calculate{
+	margin-top:10px;
+}

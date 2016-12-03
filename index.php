@@ -42,14 +42,17 @@ Options:
 </div>
 
 <div id="description">
-<p>Description</p>
+<p>We've all experienced insomnia; you're rolling around in bed, worried, and frustrated. We've designed this to be used when you're fiddling around on your mobile device trying to sleep.</p>
+<div class="text-center">
+	<p><i>So what's the cause of your insomnia?</i></p>
+</div>
 </div>
 
 <form>
 <select id="options">
 	<option value="default" selected>Choose an option</option>
     <option value="consume">I consumed caffeine</option>
-    <option value="sleptTooMuch">I slept too much</option>
+    <option value="sleptTooMuch">I slept for too long</option>
     <option value="irregular">I have an irregular sleep schedule</option>
     <option value="mind">I have something on my mind</option>
     <option value="insomnia">I have insomnia</option>
@@ -59,34 +62,42 @@ Options:
 
 
 <div class="solution" id="consume">
-  <h2>I consumed caffeine</h2>
   <br>
-  <p> What did you eat or drink?<p>
+  <div class="text-center">
+  <p> What did you eat or drink?</p>
+  </div
   <br>
-  <button id = "tea" onclick = "tea()">Tea</button>
-  <button id = "coffee" onclick= "coffee()">Coffee</button>
-  <button id = "energy" onclick= "energy()">Energy Drink</button>
-  <button id = "chocolate" onclick= "chocolate()">Chocolate</button>
+  <div id="buttonrow">
+  	<button id = "tea" onclick = "tea()">Tea</button>
+  	<button id = "coffee" onclick= "coffee()">Coffee</button>
+  	<button id = "energy" onclick= "energy()">Energy Drink</button>
+  	<button id = "chocolate" onclick= "chocolate()">Chocolate</button>
+  </div>
   <p id = "drink"></p>
-
 </div>
 
 <div class="solution" id="sleptTooMuch">
-<h2>I slept too much</h2>
+<h2>Sleeping for too long</h2>
 <br>
-<p>Based on someone's age:
-- Children should get at least 10 hours of sleep
-- Teenagers should get 9-10 hours of sleep
-- Adults should get 7-9 hours of sleep
+<p>
+
+How long you should sleep for depends on your age:
+
+<ul>
+<li type="square"><span>Children: Minimum of 10 hours</span></li>
+<li type="square"><span>Teens: 9 - 10 hours</span></li>
+<li type="square"><span>Adults: 7 - 9 hours</span></li>
+<li type="square"><span>Elderly: 7 hours</span></li>
+</ul>
 
 Exceeding this amount can lead to fatigue and grogginess. 
 
-If you've slept too much, it simply means your day has been pushed back. You'll sleep later than you usually do. 
-Make sure not to sleep too much too often, this can lead to a significant change in your sleep schedule.
+If you've slept for too long, you'll sleep later than usual tonight.
 </p>
 
+<div class="text-center">
 <select name="age" id = "age">
-    <option value="default" selected = "selected">Choose an age group</option>
+    <option value="default" selected = "selected">Age Group</option>
     <option value="child">Under 10</option>
     <option value="teen">10-20</option>
     <option value="adult">21-65</option>
@@ -94,7 +105,7 @@ Make sure not to sleep too much too often, this can lead to a significant change
 </select>
 
 <select id="hours" name="hours">
-  <option value="default" selected>Choose hours</option>
+  <option value="default" selected>Hours</option>
     <option value="1">1</option>
     <option value="2">2</option>
     <option value="3">3</option>
@@ -110,7 +121,7 @@ Make sure not to sleep too much too often, this can lead to a significant change
 </select>
 
 <select id="minutes" name="minutes">
-  <option value="default" selected>Choose minutes</option>
+  <option value="default" selected>Minutes</option>
     <option value="00">00</option>
     <option value="05">05</option>
     <option value="10">10</option>
@@ -126,18 +137,21 @@ Make sure not to sleep too much too often, this can lead to a significant change
 </select>
 
 <select id="daytime" name="daytime">
-  <option value="default" selected>Choose minutes</option>
-    <option value="am">AM</option>
+    <option value="am" selected>AM</option>
     <option value="pm">PM</option>
 </select>
-<button id ="calculate" onclick = "calculate()">calculate</button>
-
+</div>
+<div class="text-center">
+<button id ="calculate" onclick = "calculate()">Calculate</button>
+</div>
 <p id = "time"></p>
+<br>
+<br>
 
 </div>
 
 <div class="solution" id="irregular">
-<h2>Irregular sleep schedule</h2>
+<h2>Fixing an irregular sleep schedule</h2>
 <br>
 <p>If you have an irregular sleep schedule, it will be very difficult for you to fall asleep at regular times.
 Following our general tips may help, but fixing your sleep schedule should be a priority.
@@ -150,9 +164,9 @@ To fix your sleep schedule:</p>
 </div>
 
 <div class="solution" id="mind">
-<h2>Something on my mind</h2>
+<h2>Have something on your mind?</h2>
 <br>
-<p>If you have a lot in your mind, try writing it out your thoughts on a piece of paper instead of using an electronic device as it can make you more awake. When writing down things, it can get it off your mind as it can remind you in the morning or it is used to empty your mind.</p>
+<p>Whether it is worry or excitement, try writing out your thoughts on a piece of paper instead of using an electronic device as it can make you more awake. When writing down things, it can get it off your mind as it can remind you in the morning or it is used to empty your mind.</p>
 </div>
 
 <div class="solution" id="insomnia">
@@ -163,9 +177,14 @@ To fix your sleep schedule:</p>
 </div>
 
 <div class="solution" id="justCant">
-<h2>Just can't sleep?</h2>
-<br>
-<p> Try using blackout curtains to reduce light entering the room. Turn off all lights in the room to make it as dark as possible. Keep electronics away from you to prevent the need to go on it as it can make you less sleepy. Avoid the colour blue when trying to sleep. Sleeping in a dark room helps release melatonin into your system to make you fall asleep. Some foods that boost melatonin is pineapple, oranges, and sweet corn.</p>
+<h2>Just can't sleep? Here are some general tips.</h2>
+
+<ul>
+<li type="square"><span>Use blackout shades reduce light entering the room, as well as turn all the lights off.</span></li>
+<li type="square"><span>Keep electronics away.</span></li>
+<li type="square"><span>Eat foods that contain melatonin such as pineapple, oranges, and sweet corn.</span></li>
+<li type="square"><span>Get up and relax for half an hour then try falling asleep again.</span></li>
+</ul>
 </div>
 
 </div>
