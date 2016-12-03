@@ -1,5 +1,76 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
 
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Taviraj');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*font-family: 'Taviraj', serif;
+font-family: 'Droid Serif', serif;*/
 option:nth-child(7) {
     font-weight:bold;
 }
+/*
+body{background-color:#020438;
+background-image:
+radial-gradient(#284184, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(#284184, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+*/
+
+body{
+	background-color:#020438;
+}
+h1{
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+
+h2{
+	color:white;
+	font-family: 'Raleway', sans-serif;
+}
+
+form{
+	text-align:center;
+	margin-bottom:40px;
+}
+
+.outerwrapper{
+	width:100%;
+}
+
+.wrapper{
+	margin: 0 auto;
+	min-width:50%;
+	max-width:100%;
+	width:500px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.solution{
+	color:white;
+	font-family: 'Droid Serif', serif;
+	font-size:18px;
+}
+
+#description{
+	color:white;
+	font-family: 'Droid Serif', serif;\
+	font-size:18px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+ul li{
+	color:#284184;
+}
+
+span{
+	color:white;
+}
+
+select { border:0; color:white; background:#284184;
+font-size:16px; font-weight:bold; font-family: 'Droid Serif', serif; padding:8px 15px; width:320px;
+*width:350px; *background:#284184;}

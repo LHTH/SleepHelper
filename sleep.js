@@ -52,3 +52,97 @@ options.onchange = function() {
 	console.log(selection);
 	showSolution(selection);
  }
+
+ function calculate(){
+    var ages = document.getElementById("age");
+    var s = ages[ages.selectedIndex].value
+    console.log(s);
+
+    var hour = document.getElementById("hours");
+    var w = hour[hour.selectedIndex].value
+    console.log(w);
+
+    var minute = document.getElementById("minutes");
+    var a = minute[minute.selectedIndex].value
+    console.log(a);
+
+    var timeofday = document.getElementById("daytime");
+    var d = timeofday[timeofday.selectedIndex].value
+    console.log(d);
+
+    if (s == "child"){
+        var t = parseInt(w) + 10;
+       if (t>=12){
+            if (t != 12)
+                t = t-12;
+            if (d == "am")
+                d = "pm";
+            else
+                d = "am";
+        }
+        document.getElementById("time").innerHTML = "You should wake up at " + t +":" + a + d;
+    }
+    else if (s == "teen"){
+        var d1 = d;
+        var t = parseInt(w) + 9;
+        if (t>=12){
+            if (t != 12)
+                t = t-12;
+            if (d == "am")
+                d = "pm";
+            else
+                d = "am";
+            
+         }
+
+
+        var t1 = parseInt(w) + 10;
+        if (t1>=12){
+            if (t1 != 12)
+                t1 = t1-12;
+            if (d1 == "am")
+                d1 = "pm";
+            else
+                d1 = "am";
+        }
+
+        document.getElementById("time").innerHTML = "You should wake up between " + t +":" + a + d + " and " + t1 +":" + a + d1;
+    }
+    else if (s == "adult"){
+        var d1 = d;
+        var t = parseInt(w) + 7;
+        if (t>=12){
+            if (t != 12)
+                t = t-12;
+            if (d == "am")
+                d = "pm";
+            else
+                d = "am";
+        }
+
+        var t1 = parseInt(w) + 9;
+        if (t1>=12){
+            if (t1 != 12)
+                t1 = t1-12;
+            if (d1 == "am")
+                d1 = "pm";
+            else
+                d1 = "am";
+        }
+
+        document.getElementById("time").innerHTML = "You should wake up between " + t +":" + a + d + " and " + t1 +":" + a + d1;
+    }
+    else if (s == "elder"){
+        var t = parseInt(w) + 7;
+        if (t>=12){
+            if (t != 12)
+                t = t-12;
+            if (d == "am")
+                d = "pm";
+            else
+                d = "am";
+        }
+        document.getElementById("time").innerHTML = "You should wake up at " + t +":" + a + d;
+    }
+
+}
