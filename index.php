@@ -154,8 +154,9 @@ If you've slept for too long, you'll sleep later than usual tonight.
 <h2>Fixing an irregular sleep schedule</h2>
 <br>
 <p>If you have an irregular sleep schedule, it will be very difficult for you to fall asleep at regular times.
-Following our general tips may help, but fixing your sleep schedule should be a priority.
-To fix your sleep schedule:</p>
+Following our general tips may help, but fixing your sleep schedule should be a priority.</p>
+<br>
+<p>Try the following:</p>
 <ul>
 <li type="square"><span>Go to bed at the same time every night</span></li>
 <li type="square"><span>Force yourself to stay up and sleep at desired regular time</span></li>
