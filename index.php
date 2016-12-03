@@ -13,30 +13,7 @@
 <body>
 <div class="outerwrapper">
 <div class="wrapper">
-<!--
-Why can't I sleep?
 
-Options:
-
-- I consumed something
-	What did you consume?
-	1. Tea
-	2. Coffee
-	3. Energy drink
-	4. Chocolate
-
-- I slept too much last night
-	When did you last sleep? (Calculates when a suitable time to try to fall asleep is)
-
-- I have an irregular sleep schedule
-
-- Worried 
-
-- Insomnia 
-
-- I just can't fall asleep.
-
--->
 <div id="title">
 <h1>Why can't I sleep?</h1>
 </div>
@@ -73,6 +50,7 @@ Options:
   	<button id = "energy" onclick= "energy()">Energy Drink</button>
   	<button id = "chocolate" onclick= "chocolate()">Chocolate</button>
   </div>
+  <p id = "head"></p>
   <p id = "drink"></p>
 </div>
 
@@ -144,6 +122,7 @@ If you've slept for too long, you'll sleep later than usual tonight.
 <div class="text-center">
 <button id ="calculate" onclick = "calculate()">Calculate</button>
 </div>
+
 <p id = "time"></p>
 <br>
 <br>
